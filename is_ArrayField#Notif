@@ -3413,3 +3413,4 @@ function ArrayFieldLibrary:LoadConfiguration()
 		end)
 	end
 end
+return ArrayFieldLibrary
