@@ -784,7 +784,7 @@ function Hide()
 		spawn(CloseSideBar)
 	end
 	spawn(function()
-		print("asd")
+		FadeDescription(nil,true)
 	end)
 	Debounce = true
 	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 400)}):Play()
