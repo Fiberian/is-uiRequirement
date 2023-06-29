@@ -783,9 +783,6 @@ function Hide()
 	if not SideBarClosed then
 		spawn(CloseSideBar)
 	end
-	spawn(function()
-		print("Fiber Hub /-/ ArrayField Loaded")
-	end)
 	Debounce = true
 	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 400)}):Play()
 	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 45)}):Play()
