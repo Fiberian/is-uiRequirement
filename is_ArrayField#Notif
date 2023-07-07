@@ -3429,22 +3429,6 @@ UserInputService.InputBegan:Connect(function(input, processed)
 	end
 end)
 
-function ToggleUi()
-	UserInputService.InputBegan:Connect(function(input, processed)
-		if (input.KeyCode == Enum.KeyCode.RightShift and not processed) then
-			if Debounce then return end
-			if Hidden then
-				Hidden = false
-				Unhide()
-			else
-				if not SearchHided then spawn(CloseSearch) end
-				Hidden = true
-				Hide()
-			end
-		end
-	end)
-end
-
 for _, TopbarButton in ipairs(Topbar:GetChildren()) do
 	if TopbarButton.ClassName == "ImageButton" then
 		TopbarButton.MouseEnter:Connect(function()
