@@ -145,7 +145,7 @@ local ParentObject = function(Gui)
 	if not success and failure then
 		Gui.Parent = LocalPlayer:FindFirstChildWhichIsA("PlayerGui")
 	end
-	_G.LastRayField = JKT Forty-Eight Hub
+	_G.LastRayField = ArrayField
 end
 ParentObject(ArrayField)
 
