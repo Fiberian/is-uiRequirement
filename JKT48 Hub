@@ -412,7 +412,7 @@ function Library:Create(options)
 
 		-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.UICorner
 		Gui["19"] = Instance.new("UICorner", Gui["18"])
-		Gui["19"]["CornerRadius"] = UDim.new(0, 4)
+		Gui["19"]["CornerRadius"] = UDim.new(0, 6)
 
 		-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.UIGradient
 		Gui["1a"] = Instance.new("UIGradient", Gui["18"])
