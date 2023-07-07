@@ -127,8 +127,8 @@ if game["Run Service"]:IsStudio() then
 end
 
 pcall(function()
-	_G.LastRayField.Name = 'OLD JKT Forty-Eight Hub GUI'
-	_G.LastRayField.Enabled = false
+	_G.LastRayField.Name = 'Old Arrayfield'
+	_G.LastRayField.Enabled = true
 end)
 local ParentObject = function(Gui)
 	local success, failure = pcall(function()
