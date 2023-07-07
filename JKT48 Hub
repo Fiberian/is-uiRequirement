@@ -1623,7 +1623,7 @@ function Library:Create(options)
 
 					-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.Container.SectionFrame.SectionContainer.Toggle.Toggle.UICorner
 					Toggle["28"] = Instance.new("UICorner", Toggle["27"])
-					Toggle["28"]["CornerRadius"] = UDim.new(2, 0)
+					Toggle["28"]["CornerRadius"] = UDim.new(0, 8)
 
 					-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.Container.SectionFrame.SectionContainer.Toggle.Toggle.UIGradient
 					Toggle["29"] = Instance.new("UIGradient", Toggle["27"])
@@ -1645,7 +1645,7 @@ function Library:Create(options)
 
 					-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.Container.SectionFrame.SectionContainer.Toggle.Toggle.Indicator.UICorner
 					Toggle["2b"] = Instance.new("UICorner", Toggle["2a"])
-					Toggle["2b"]["CornerRadius"] = UDim.new(1, 0)
+					Toggle["2b"]["CornerRadius"] = UDim.new(0, 8)
 
 					-- StarterGui.Vision Lib v2.GuiFrame.MainFrame.Container.SectionFrame.SectionContainer.Toggle.Label
 					Toggle["2d"] = Instance.new("TextLabel", Toggle["24"])
