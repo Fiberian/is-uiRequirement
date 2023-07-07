@@ -128,7 +128,7 @@ end
 
 pcall(function()
 	_G.LastRayField.Name = 'Old Arrayfield'
-	_G.LastRayField.Enabled = true
+	_G.LastRayField.Enabled = false
 end)
 local ParentObject = function(Gui)
 	local success, failure = pcall(function()
