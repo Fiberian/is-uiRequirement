@@ -668,7 +668,7 @@ function ClosePrompt()
 	wait(.5)
 	Prompt.Visible = false
 end
-function FiberHub:Notify(NotificationSettings)
+function ArrayFieldLibrary:Notify(NotificationSettings)
 	spawn(function()
 		local ActionCompleted = true
 		local Notification = Notifications.Template:Clone()
@@ -3465,4 +3465,3 @@ function ArrayFieldLibrary:LoadConfiguration()
 end
 task.delay(9, ArrayFieldLibrary.LoadConfiguration, ArrayFieldLibrary)
 return ArrayFieldLibrary
-
