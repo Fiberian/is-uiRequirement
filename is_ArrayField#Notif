@@ -718,7 +718,7 @@ function ArrayFieldLibrary:Notify(NotificationSettings)
 		Notification.Title.Text = NotificationSettings.Title or "Fiber Hub"
 		Notification.Title.TextTransparency = 1
 		Notification.Title.TextColor3 = SelectedTheme.TextColor
-		Notification.Description.Text = NotificationSettings.Content or "Unknown"
+		Notification.Description.Text = NotificationSettings.Content or "Fiber Hub"
 		Notification.Description.TextTransparency = 1
 		Notification.Description.TextColor3 = SelectedTheme.TextColor
 		Notification.Icon.ImageColor3 = SelectedTheme.TextColor
