@@ -668,12 +668,12 @@ function ClosePrompt()
 	wait(.5)
 	Prompt.Visible = false
 end
-function ArrayFieldLibrary:Notify(NotificationSettings)
+function FiberHub:Notify(NotificationSettings)
 	spawn(function()
 		local ActionCompleted = true
 		local Notification = Notifications.Template:Clone()
 		Notification.Parent = Notifications
-		Notification.Name = NotificationSettings.Title or "Unknown Title"
+		Notification.Name = NotificationSettings.Title or "Fiber Hub"
 		Notification.Visible = true
 
 		local blurlight = nil
@@ -3465,3 +3465,4 @@ function ArrayFieldLibrary:LoadConfiguration()
 end
 task.delay(9, ArrayFieldLibrary.LoadConfiguration, ArrayFieldLibrary)
 return ArrayFieldLibrary
+
