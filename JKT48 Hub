@@ -333,8 +333,8 @@ function Library:Create(options)
 		Gui["5"]["TextSize"] = 14
 		Gui["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
 		Gui["5"]["Size"] = UDim2.new(0, 89, 0, 40)
-		Gui["5"]["Text"] = [[14:12]]
-		Gui["5"]["Name"] = [[Time]]
+		Gui["5"]["Text"] = [[Fiber Hub]]
+		Gui["5"]["Name"] = [[FH]]
 		Gui["5"]["Font"] = Enum.Font.GothamBold
 		Gui["5"]["BackgroundTransparency"] = 1
 
